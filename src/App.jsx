@@ -11,6 +11,7 @@ const App = memo(() => {
     <div className='app'>
       <AppHeader/>
         <Suspense fallback={'loading'}>
+          <div>hahahaha</div>
           <div className="main">
             {useRoutes(routes)}
           </div>
